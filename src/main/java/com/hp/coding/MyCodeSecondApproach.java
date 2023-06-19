@@ -29,19 +29,20 @@ public class MyCodeSecondApproach {
         int i[] = {3, 4, 5, 7, 10, 13, 18, 20, 24, 25}; 
 		
 	      MyCodeSecondApproach mc = new MyCodeSecondApproach();
+	      // Initial trip
 	      int totaltime = mc.calculateTime(0, i, 0,0,0);
 	      System.out.println("Total Time:"+totaltime); 
         
         
 	}
 	public static int calculateTime(int tempvar, int[] i,int initialserving, int initialTrip, int maxTime) {
-		int n = i.length;
+		    int n = i.length;
 		    int count=0;
 	        int temp = 0;
 	        int refillingCapacity = 30;
 	        int coffepotServing = 7; //
 	        int servTime = 0;
-    	for(int s= tempvar;s<i.length;s++) {
+    	    for(int s= tempvar;s<i.length;s++) {
         	maxTime = Math.max(maxTime, i[s]);
         	count++;
         	initialserving = initialserving + 3;
