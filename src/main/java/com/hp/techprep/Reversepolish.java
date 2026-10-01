@@ -1,4 +1,4 @@
-package com.hp.practiceprobs;
+package com.hp.techprep;
 
 import java.util.Stack;
 

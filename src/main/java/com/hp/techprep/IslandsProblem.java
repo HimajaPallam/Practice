@@ -1,4 +1,4 @@
-package com.hp.practiceprobs;
+package com.hp.techprep;
 
 
 /*You are given an m x n 2D binary grid called grid where:
