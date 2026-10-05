@@ -53,13 +53,11 @@ public class LRUCache {
             return;
         }
 
-
         if(map.size() == capacity) {
             Node lru = tail.prev;
             remove(lru);
             map.remove(key);
         }
-
 
         Node newNode = new Node(key, value);
         map.put(key, newNode);
