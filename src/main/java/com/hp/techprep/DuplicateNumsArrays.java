@@ -3,6 +3,14 @@ package com.hp.techprep;
 import java.util.HashMap;
 import java.util.Map;
 
+/*Given an integer array nums, determine whether any element appears more than once. Return true if a duplicate exists, and false otherwise.
+Example 1:
+Input: nums = [1, 1, 2, 3]
+Output: true
+Example 2:
+Input: nums = [1, 2, 3, 4]
+Output: false*/
+
 public class DuplicateNumsArrays {
     public static boolean hasDuplicate(int[] nums) {
         // Your code here
